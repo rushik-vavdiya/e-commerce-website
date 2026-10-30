@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Banner image placeholder">
+  <defs>
+    <linearGradient id="banner-wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF3EA" />
+      <stop offset="0.55" stop-color="#F6E8DB" />
+      <stop offset="1" stop-color="#EFDCCC" />
+    </linearGradient>
+
+    <radialGradient id="banner-glow" cx="0.34" cy="0.2" r="0.72">
+      <stop offset="0" stop-color="#FFFBF6" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#FFFBF6" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="banner-arch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8E9DA" />
+      <stop offset="1" stop-color="#EBD5C2" />
+    </linearGradient>
+
+    <linearGradient id="banner-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E3C7AE" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#DCBBA0" stop-opacity="0.16" />
+    </linearGradient>
+  </defs>
+
+  <!-- Warm studio wall -->
+  <rect width="1200" height="900" fill="url(#banner-wash)" />
+  <rect width="1200" height="900" fill="url(#banner-glow)" />
+
+  <!-- Sunlit arch standing on the floor line -->
+  <g fill="url(#banner-arch)" stroke="#E0BE9F" stroke-width="2.5">
+    <path d="M466 828 L466 430 A 194 194 0 0 1 854 430 L854 828 Z" />
+    <path d="M538 828 L538 454 A 122 122 0 0 1 782 454 L782 828 Z" fill="none" stroke="#DDB99A" stroke-opacity="0.7" />
+  </g>
+
+  <!-- Floor band under everything -->
+  <rect y="828" width="1200" height="72" fill="url(#banner-floor)" />
+  <path d="M0 828 H1200" stroke="#DCBBA0" stroke-opacity="0.55" stroke-width="2" />
+
+  <!-- Botanical stems, kept inside the centre so a square crop keeps them whole -->
+  <g opacity="0.8">
+    <path d="M330 828 C 362 700, 380 592, 352 462" fill="none" stroke="#CFA181" stroke-width="3" stroke-linecap="round" />
+
+    <g fill="#EDD5C0" stroke="#D4AF94" stroke-width="2">
+      <ellipse cx="292" cy="690" rx="54" ry="22" transform="rotate(-30 292 690)" />
+      <ellipse cx="408" cy="640" rx="54" ry="22" transform="rotate(28 408 640)" />
+      <ellipse cx="304" cy="588" rx="50" ry="20" transform="rotate(-32 304 588)" />
+      <ellipse cx="400" cy="536" rx="44" ry="18" transform="rotate(26 400 536)" />
+      <ellipse cx="334" cy="486" rx="34" ry="15" transform="rotate(-28 334 486)" />
+    </g>
+  </g>
+
+  <!-- Vase resting on the same floor line, right of the arch -->
+  <g fill="#E6CAB5" stroke="#D2AE93" stroke-width="2.5">
+    <path d="M876 700 C 856 756, 866 828, 898 828 L980 828 C 1012 828, 1022 756, 1002 700 Z" />
+    <path d="M876 700 Q 939 688 1002 700" fill="none" />
+  </g>
+</svg>

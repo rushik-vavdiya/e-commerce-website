@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="Photo coming soon">
+  <defs>
+    <linearGradient id="placeholder-wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF4EE" />
+      <stop offset="1" stop-color="#F3E5DA" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1000" fill="url(#placeholder-wash)" />
+
+  <!-- Picture mark, centred so square and portrait crops both keep it whole. -->
+  <rect
+    x="390"
+    y="378"
+    width="220"
+    height="172"
+    rx="20"
+    fill="none"
+    stroke="#DCC0B1"
+    stroke-width="6"
+  />
+  <circle cx="438" cy="428" r="16" fill="#DCC0B1" />
+  <path
+    d="M398 536 L462 470 L496 504 L526 474 L602 536"
+    fill="none"
+    stroke="#DCC0B1"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <text
+    x="500"
+    y="648"
+    text-anchor="middle"
+    fill="#C0A08F"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="26"
+    letter-spacing="9"
+  >LUNELLA</text>
+</svg>

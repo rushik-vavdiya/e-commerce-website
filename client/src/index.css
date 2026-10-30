@@ -1,0 +1,317 @@
+@import "tailwindcss";
+
+@theme {
+  /* The brand wordmark and its subtitle use a high-contrast serif (loaded in
+     index.html); headings keep the body serif, so this only styles the logo. */
+  --font-wordmark: "Playfair Display", "Times New Roman", serif;
+
+  --animate-marquee: marquee 25s linear infinite;
+  /* Duration is set per notification on the element itself. */
+  --animate-toast-progress: toast-progress linear forwards;
+  --animate-hero-reveal: hero-reveal 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-hero-image: hero-image 1400ms ease-out both;
+  /* OTP verification: one-shot check draw and badge pop, plus a looping ring. */
+  --animate-check-draw: check-draw 500ms cubic-bezier(0.65, 0, 0.35, 1) 140ms both;
+  --animate-pop: pop 460ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-verify-ring: verify-ring 1200ms ease-out infinite;
+
+  /* Storefront palette, read from the Lunella homepage mockup. */
+  --color-background: #FDFBF7;
+  --color-peach: #F7E4D8;
+  /* A touch deeper than the mockup's tan so white text on it stays readable. */
+  --color-accent: #A9643A;
+  --color-primary: #7A3440;
+  /* The storefront wordmark sits on white, so it needs more weight than the
+     body's wine. Near-black plum keeps the serif crisp at 20-26px. */
+  --color-logo: #3B1A20;
+  --color-border: #EEE0D6;
+  --color-muted: #75655C;
+  /* Bands and accents that only appear in one place on the page. */
+  --color-blush: #FBEFED;
+  --color-bar: #814446;
+  --color-wine: #6E3534;
+  --color-olive: #515F3E;
+  --color-star: #D9A03C;
+  /* Scrim behind dialogs and drawers: near-black, so the page dims instead of
+     picking up a pink cast from the wine palette. Pair it with an opacity
+     modifier, e.g. bg-scrim/55. */
+  --color-scrim: #1C1512;
+
+  /* Footer (components/layout/Footer.jsx): the cream brand band, the blush
+     promise strip and the terracotta legal bar. Named as colours here so the
+     markup reads with normal utilities (bg-footer-band, text-footer-title, …)
+     instead of arbitrary var() values. */
+  --color-footer-band: #FDFBF7;
+  --color-footer-title: #7A3440;
+  --color-footer-text: #75655C;
+  --color-footer-divider: #EEE0D6;
+  --color-footer-social: #F9ECE5;
+  --color-footer-social-icon: #BE7C4E;
+  --color-footer-benefits: #FBEFED;
+  --color-footer-icon: #BE7C4E;
+  --color-footer-bar: #814446;
+  --color-footer-bar-deep: #6E393B;
+  --color-footer-bar-text: #FDF3EC;
+  --color-footer-bar-divider: rgba(253, 243, 236, 0.32);
+  --color-footer-pill: #FFFDFB;
+
+
+  @keyframes toast-progress {
+    from {
+      transform: scaleX(1);
+    }
+
+    to {
+      transform: scaleX(0);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes hero-reveal {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes hero-image {
+    from {
+      transform: scale(1.06);
+    }
+
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes check-draw {
+    from {
+      stroke-dashoffset: 32;
+    }
+
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+
+    60% {
+      transform: scale(1.06);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes verify-ring {
+    0% {
+      opacity: 0.55;
+      transform: scale(0.72);
+    }
+
+    70% {
+      opacity: 0;
+      transform: scale(1.35);
+    }
+
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Hero palette (components/home/Hero.jsx)
+ *
+ * A light studio banner: the photo carries the whole band and the copy sits on
+ * the pale wall on its left, in the mockup's dark ink. Every colour is read from
+ * this block, so the banner can be recoloured here without touching the markup.
+ * ------------------------------------------------------------------------- */
+:root {
+  /* Base behind the photo, and the wash that keeps the copy readable. */
+  --hero-surface: #efe2d4;
+  --hero-wash: rgba(253, 251, 247, 0.72);
+
+  /* Copy. */
+  --hero-eyebrow: #c4814f;
+  --hero-title: #201a18;
+  --hero-title-accent: #7a3440;
+  --hero-text: #554c43;
+
+  /* Button. */
+  --hero-cta-bg: #7d333e;
+  --hero-cta-bg-hover: #6a2a35;
+  --hero-cta-text: #fdf6f2;
+}
+
+/* ---------------------------------------------------------------------------
+ * Promotional banners (components/home/PromoBanner.jsx)
+ *
+ * Two side-by-side panels: a soft rose one and an olive one. Each panel names
+ * its tone in siteContent.json, so the colours live here in one place.
+ * ------------------------------------------------------------------------- */
+:root {
+  --promo-rose: #ecc7bc;
+  --promo-rose-deep: #e4b8ac;
+  /* Veils layered over the promo photo so the copy stays readable while the
+     image still fills the whole card — light enough that the photo reads across
+     both halves, not just the side it sits on. */
+  --promo-rose-veil: rgba(236, 199, 188, 0.78);
+  --promo-rose-veil-soft: rgba(236, 199, 188, 0.34);
+  --promo-rose-ink: #7a3440;
+  --promo-rose-cta-bg: #7d333e;
+  --promo-rose-cta-text: #fdf6f2;
+
+  --promo-olive: #515f3e;
+  --promo-olive-deep: #445134;
+  --promo-olive-veil: rgba(81, 95, 62, 0.82);
+  --promo-olive-veil-soft: rgba(81, 95, 62, 0.38);
+  --promo-olive-ink: #f7f2e6;
+  --promo-olive-muted: #dfe4d2;
+  --promo-olive-cta-bg: #fbf7ee;
+  --promo-olive-cta-text: #46543a;
+}
+
+/* ---------------------------------------------------------------------------
+ * Newsletter panel (components/home/Newsletter.jsx) and the review band
+ * (components/review/WebsiteReviewSection.jsx).
+ * ------------------------------------------------------------------------- */
+:root {
+  --newsletter-panel: #6e3534;
+  --newsletter-panel-deep: #5f2c2c;
+  --newsletter-ink: #fdf1ea;
+  --newsletter-muted: #e9cec6;
+  --newsletter-cta-bg: #fdf9f8;
+  --newsletter-cta-text: #6e3534;
+
+  --reviews-band: #fbefed;
+}
+
+/* ---------------------------------------------------------------------------
+ * Shop-by-category slider (components/home/CategoryShowcase.jsx)
+ *
+ * Swiper clips its box, which would cut the lift-and-shadow on hover, so the
+ * row carries its own breathing room top and bottom.
+ * ------------------------------------------------------------------------- */
+.category-swiper {
+  padding-block: 0.75rem;
+}
+
+.category-swiper .swiper-slide {
+  height: auto;
+}
+
+/* ---------------------------------------------------------------------------
+ * Store review slider (components/review/WebsiteReviewSection.jsx)
+ *
+ * Swiper's own bullets are blue; these match the storefront palette, and the
+ * active one stretches into a short pill so the current card is obvious.
+ * ------------------------------------------------------------------------- */
+.store-reviews-swiper {
+  padding-bottom: 2rem;
+}
+
+.store-reviews-swiper .swiper-pagination {
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.store-reviews-swiper .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  margin: 0 !important;
+  background: #e3cdc0;
+  opacity: 1;
+  transition: width 250ms ease, background-color 250ms ease;
+}
+
+.store-reviews-swiper .swiper-pagination-bullet-active {
+  width: 24px;
+  border-radius: 9999px;
+  background: var(--color-accent);
+}
+
+/* ---------------------------------------------------------------------------
+ * Footer promise strip (components/layout/Footer.jsx)
+ *
+ * On phones the four promises become a single-card auto-playing carousel.
+ * Swiper's bullets are blue by default, so these are recoloured to the footer
+ * palette; the active one stretches into a short pill, echoing the review
+ * slider above. Hidden from lg, where the static grid takes over.
+ * ------------------------------------------------------------------------- */
+.footer-benefits-swiper {
+  --swiper-pagination-color: var(--color-accent);
+}
+
+.footer-benefits-swiper .swiper-pagination {
+  bottom: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.footer-benefits-swiper .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  margin: 0 !important;
+  background: #e3cdc0;
+  opacity: 1;
+  transition: width 250ms ease, background-color 250ms ease;
+}
+
+.footer-benefits-swiper .swiper-pagination-bullet-active {
+  width: 22px;
+  border-radius: 9999px;
+  background: var(--color-accent);
+}
+
+/* ---------------------------------------------------------------------------
+ * Smooth scrolling (site-wide)
+ *
+ * Anchor jumps and client-side route changes glide instead of snapping. The
+ * browser-back restore in ScrollToTop keeps its own explicit instant scroll,
+ * and a visitor who asked the OS for less motion keeps the default jump.
+ * ------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* The photo is light, so the copy sits on a soft cream wash instead of a dark
+ * scrim. On phones it covers the band; on wider screens it fades out to the
+ * right, leaving the model and the plants clear. */
+.hero-wash {
+  background-image: linear-gradient(
+    90deg,
+    var(--hero-wash) 0%,
+    var(--hero-wash) 46%,
+    transparent 100%
+  );
+}

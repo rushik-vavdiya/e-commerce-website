@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" width="1600" height="620" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Maroon botanical backdrop">
+  <defs>
+    <linearGradient id="nl-base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7b3d3a" />
+      <stop offset="0.52" stop-color="#6e3534" />
+      <stop offset="1" stop-color="#592a2b" />
+    </linearGradient>
+
+    <radialGradient id="nl-glow" cx="0.78" cy="0.14" r="0.72">
+      <stop offset="0" stop-color="#d39a86" stop-opacity="0.78" />
+      <stop offset="0.55" stop-color="#c08372" stop-opacity="0.34" />
+      <stop offset="1" stop-color="#c08372" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="nl-shadow" cx="0.05" cy="0.95" r="0.78">
+      <stop offset="0" stop-color="#3a1718" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#3a1718" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="620" fill="url(#nl-base)" />
+  <rect width="1600" height="620" fill="url(#nl-glow)" />
+  <rect width="1600" height="620" fill="url(#nl-shadow)" />
+
+  <!-- Faint botanical linework, kept at low opacity so the copy stays calm. -->
+  <g fill="none" stroke="#f8e3d8" stroke-linecap="round" opacity="0.24">
+    <path d="M-40 560 C 180 500, 300 400, 470 300 C 590 230, 700 210, 830 196" stroke-width="2.4" />
+    <path d="M120 610 C 260 520, 360 430, 470 300" stroke-width="1.6" opacity="0.7" />
+    <path d="M1640 40 C 1460 90, 1330 170, 1210 280 C 1110 372, 1030 420, 930 452" stroke-width="2.4" />
+    <path d="M1490 8 C 1520 120, 1560 210, 1640 268" stroke-width="1.6" opacity="0.7" />
+  </g>
+
+  <g fill="#f8e3d8" opacity="0.2">
+    <ellipse cx="214" cy="470" rx="46" ry="17" transform="rotate(-28 214 470)" />
+    <ellipse cx="300" cy="424" rx="38" ry="14" transform="rotate(-38 300 424)" />
+    <ellipse cx="392" cy="360" rx="34" ry="13" transform="rotate(-32 392 360)" />
+    <ellipse cx="596" cy="258" rx="30" ry="12" transform="rotate(-22 596 258)" />
+    <ellipse cx="712" cy="218" rx="26" ry="10" transform="rotate(-14 712 218)" />
+    <ellipse cx="1392" cy="150" rx="44" ry="16" transform="rotate(24 1392 150)" />
+    <ellipse cx="1290" cy="222" rx="36" ry="14" transform="rotate(34 1290 222)" />
+    <ellipse cx="1176" cy="318" rx="32" ry="12" transform="rotate(28 1176 318)" />
+    <ellipse cx="1052" cy="404" rx="28" ry="11" transform="rotate(20 1052 404)" />
+  </g>
+
+  <!-- Thin warm hairline along the top edge, a quiet finishing detail. -->
+  <rect x="0" y="0" width="1600" height="2" fill="#e9c3ae" opacity="0.22" />
+</svg>

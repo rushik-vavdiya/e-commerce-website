@@ -1,0 +1,906 @@
+{
+  "brand": {
+    "name": "Mahakali",
+    "logoText": "Mahakali",
+    "tagline": "Kurti House",
+    "copyrightName": "Mahakali",
+    "description": "Timeless ethnic wear for the modern woman — kurtis, sets and dupattas made to be worn every day."
+  },
+  "support": {
+    "email": "support@rynova.com",
+    "phone": "+91 90000 00000",
+    "hours": "Mon – Sat, 10:00 – 19:00 IST",
+    "address": "Studio 12, Fashion District, Mumbai"
+  },
+  "whatsapp": {
+    "number": "7283998915",
+    "message": "Hi Lunella! I would like to ask about an order.",
+    "label": "Chat with us on WhatsApp"
+  },
+  "map": {
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.66693725107!2d72.8782648775441!3d21.24505202995302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f64ad78e111%3A0xc82608b53dda4009!2sAnand%20Dhara%20Society%20ni%20Vadi%20Vibhag%201!5e0!3m2!1sen!2sin!4v1791700768813!5m2!1sen!2sin",
+    "title": "Google Maps — Lunella studio location"
+  },
+  "announcements": [
+    {
+      "id": "shipping",
+      "text": "Free Shipping on Orders Above ₹999",
+      "icon": "truck"
+    },
+    {
+      "id": "returns",
+      "text": "Easy Returns & Exchanges",
+      "icon": "package"
+    },
+    {
+      "id": "cod",
+      "text": "COD Available",
+      "icon": "tag"
+    }
+  ],
+  "nav": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Collections",
+        "href": "/shop"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      }
+    ],
+    "collectionsLabel": "Collections",
+    "signInLabel": "Sign In / Create Account",
+    "logoAriaLabel": "Lunella home",
+    "mainNavLabel": "Main navigation",
+    "mobileNavLabel": "Mobile navigation"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "New Collection",
+      "titleLine1": "Elegant Kurtis",
+      "titleHighlight": "For Every You",
+      "description": "Modern styles with traditional charm — crafted for your everyday elegance.",
+      "buttons": [
+        {
+          "id": "shop",
+          "label": "Shop Now",
+          "href": "/shop?category=1-piece",
+          "style": "primary"
+        }
+      ],
+      "image": "/images/Sunlit Courtyard Fashion Portrait.png",
+      "imageFallback": "/images/placeholder-banner.svg",
+      "imageAlt": "Model in a floral printed anarkali with a pink dupatta, seated in a sunlit courtyard"
+    },
+    "categories": {
+      "heading": {
+        "eyebrow": "Curated for you",
+        "title": "Shop by Category",
+        "description": "Find your fit — from single kurtis to complete sets, in one place."
+      },
+      "imageFallback": "/images/placeholder.svg",
+      "order": [
+        "1-piece",
+        "2-piece",
+        "3-piece",
+        "cord-set"
+      ]
+    },
+    "newArrivals": {
+      "heading": {
+        "eyebrow": "Just dropped",
+        "title": "New Arrivals",
+        "description": "The latest pieces to land in the studio, ready to wear this week.",
+        "actionLabel": "View all new in",
+        "actionHref": "/shop"
+      }
+    },
+    "featuredCollections": {
+      "heading": {
+        "eyebrow": "Explore Our Collections",
+        "title": "Find Your Perfect Style",
+        "actionLabel": "View All",
+        "actionHref": "/shop"
+      },
+      "linkLabel": "Shop Now",
+      "items": [
+        {
+          "id": "casual-wear",
+          "name": "Casual Wear",
+          "image": "/images/casual.png",
+          "imageFallback": "/images/placeholder.svg",
+          "href": "/shop?category=1-piece"
+        },
+        {
+          "id": "office-wear",
+          "name": "Office Wear",
+          "image": "/images/office.png",
+          "imageFallback": "/images/placeholder.svg",
+          "href": "/shop?category=cord-set"
+        },
+        {
+          "id": "festive-wear",
+          "name": "Festive Wear",
+          "image": "/images/festive.png",
+          "imageFallback": "/images/placeholder.svg",
+          "href": "/shop?category=2-piece"
+        },
+        {
+          "id": "party-wear",
+          "name": "Party Wear",
+          "image": "/images/party.png",
+          "imageFallback": "/images/placeholder.svg",
+          "href": "/shop?category=3-piece"
+        }
+      ]
+    },
+    "trending": {
+      "heading": {
+        "eyebrow": "Trending now",
+        "title": "What everyone is wearing",
+        "description": "Most-viewed styles across the store this month.",
+        "actionLabel": "See what's trending",
+        "actionHref": "/shop"
+      }
+    },
+    "promo": {
+      "items": [
+        {
+          "id": "festive",
+          "title": "Festive Collection",
+          "description": "Tradition Meets Trend",
+          "buttonLabel": "Shop Festive",
+          "buttonHref": "/shop?category=3-piece",
+          "image": "/images/festival.png",
+          "imageFallback": "/images/placeholder-banner.svg",
+          "imageAlt": "Model in a festive pink kurti",
+          "imagePosition": "50% 24%",
+          "tone": "rose",
+          "imageSide": "left"
+        },
+        {
+          "id": "everyday",
+          "title": "Everyday Essentials",
+          "description": "Comfortable Styles For Everyday Wear",
+          "buttonLabel": "Shop Now",
+          "buttonHref": "/shop?category=1-piece",
+          "image": "/images/everyday.png",
+          "imageFallback": "/images/placeholder-banner.svg",
+          "imageAlt": "Model in a deep green everyday kurti",
+          "imagePosition": "50% 55%",
+          "tone": "olive",
+          "imageSide": "right"
+        }
+      ]
+    },
+    "bestSellers": {
+      "heading": {
+        "eyebrow": "Trending Now",
+        "title": "Best Sellers",
+        "actionLabel": "View All",
+        "actionHref": "/shop"
+      },
+      "placeholderImages": [
+        "/images/placeholder.svg",
+        "/images/placeholder.svg",
+        "/images/placeholder.svg",
+        "/images/placeholder.svg",
+        "/images/placeholder.svg",
+        "/images/placeholder.svg"
+      ]
+    },
+    "reviews": {
+      "eyebrow": "What Our Customers Say",
+      "heading": "Real Reviews, Real Love",
+      "description": "Every quote below is an approved review written by a signed-in customer.",
+      "buttonLabel": "Write a review",
+      "emptyTitle": "No reviews yet.",
+      "emptyText": "Yours would be the first — tell other shoppers how the site felt."
+    },
+    "newsletter": {
+      "eyebrow": "Stay Updated",
+      "titleLine1": "Join Our",
+      "titleHighlight": "Community",
+      "description": "Subscribe to get special offers, new arrivals and style inspiration directly in your inbox.",
+      "image": "/images/Newsletter.png",
+      "imageFallback": "/images/newsletter-bg.svg",
+      "imagePosition": "50% 28%",
+      "placeholder": "Enter your email address",
+      "buttonLabel": "Subscribe",
+      "formLabel": "Email address",
+      "note": "No spam — unsubscribe whenever you like."
+    },
+    "brandStory": {
+      "title": "More Than Fashion",
+      "description": "At Lunella, we celebrate the modern woman with timeless ethnic wear, designed to make you feel confident and beautiful every day.",
+      "buttonLabel": "Learn More",
+      "buttonHref": "/about",
+      "image": "/images/bottom-banner.png",
+      "imageFallback": "/images/placeholder-banner.svg",
+      "imageAlt": "Model in a pink kurti styled in the Lunella studio"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Our story",
+      "title": "Fashion for every you",
+      "description": "Mahakali began with a simple idea: everyday ethnic wear should feel as good as it looks. We design calm, wearable kurtis and sets in soft fabrics, keep our prices honest, and make everything to be worn on repeat — not just for one season.",
+      "image": "/images/Elegant Ethnic Fashion in a Dreamy Courtyard.png",
+      "imageFallback": "/images/Sunlit Courtyard Fashion Portrait.png"
+    },
+    "intro": {
+      "eyebrow": "Mahakali — Our story",
+      "title": "Behind the clothes is a small studio that cares about what it makes.",
+      "description": "This page is a quick look at who we are, what we value, and how the collections get made. If anything here makes you curious — fabrics, fits, the studio, the people — the easiest thing to do is write or call. We are always happy to talk about the clothes."
+    },
+    "howWeWork": {
+      "eyebrow": "How we work",
+      "title": "Fewer, better pieces — and a studio you can talk to",
+      "description": "We keep our collections small on purpose. Each drop is designed around the pieces you actually reach for, so you can build a wardrobe that lasts instead of replacing it every season.",
+      "image": "/images/category-mobile.png",
+      "imageFallback": "/images/category.png",
+      "imageAlt": "A sunlit corner of the Mahakali studio",
+      "points": [
+        "Designed in our Mumbai studio, made with long-term partners",
+        "Small-batch drops so nothing sits in a warehouse for months",
+        "Care labels written in plain language, not symbols alone"
+      ],
+      "actionLabel": "Browse the collection",
+      "actionHref": "/shop"
+    },
+    "gallery": {
+      "eyebrow": "In the studio",
+      "title": "A quiet look at how the clothes get made",
+      "description": "Sketches, swatches, fittings and the last check before a parcel leaves the building — the everyday parts of making a collection.",
+      "shots": [
+        {
+          "id": "studio",
+          "caption": "The studio",
+          "image": "/images/everyday.png",
+          "imageFallback": "/images/category.png",
+          "alt": "Kurtis on the rail in the Mahakali studio",
+          "position": "62% 45%",
+          "className": "col-span-2 row-span-2"
+        },
+        {
+          "id": "fitting",
+          "caption": "Fit sessions",
+          "image": "/images/casual.png",
+          "imageFallback": "/images/placeholder.svg",
+          "alt": "A kurti being checked in a fit session",
+          "position": "50% 28%",
+          "className": ""
+        },
+        {
+          "id": "fabric",
+          "caption": "Fabric library",
+          "image": "/images/festival.png",
+          "imageFallback": "/images/placeholder.svg",
+          "alt": "Embroidered fabric from the Mahakali studio",
+          "position": "36% 46%",
+          "className": ""
+        },
+        {
+          "id": "dispatch",
+          "caption": "Packing & dispatch",
+          "image": "/images/bottom-banner.png",
+          "imageFallback": "/images/placeholder.svg",
+          "alt": "Kurtis on the rail, ready to be packed",
+          "position": "50% 45%",
+          "className": "col-span-2"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "banner": {
+      "eyebrow": "Get in touch",
+      "title": "We would love to hear from you",
+      "description": "Questions about an order, a size or a return? Send us a message or call the studio — whichever is easier for you.",
+      "image": "/images/festival.png",
+      "imageFallback": "/images/placeholder-banner.svg"
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "Tell us what you need help with and we will reply by email. Fields marked with an asterisk are required.",
+      "submitLabel": "Send message",
+      "resetLabel": "Clear form"
+    },
+    "infoCards": [
+      {
+        "id": "email",
+        "label": "Email us",
+        "hint": "Replies within one working day",
+        "icon": "mail",
+        "source": "email",
+        "hrefType": "email"
+      },
+      {
+        "id": "phone",
+        "label": "Call us",
+        "hint": "Mon – Sat, 10:00 – 19:00 IST",
+        "icon": "phone",
+        "source": "phone",
+        "hrefType": "phone"
+      },
+      {
+        "id": "address",
+        "label": "Visit the studio",
+        "hint": "Appointments recommended",
+        "icon": "mapPin",
+        "source": "address",
+        "hrefType": "none"
+      }
+    ],
+    "quickAnswers": {
+      "title": "Quick answers",
+      "description": "Delivery times, returns and payment questions are answered in the FAQ — and it is usually faster than waiting for an email.",
+      "linkLabel": "Read the FAQ",
+      "linkHref": "/faq"
+    },
+    "map": {
+      "eyebrow": "Find us",
+      "title": "Visit the Mahakali studio",
+      "description": "Come and feel the fabrics in person. We are happy to help with sizing, styling and exchanges — appointments are recommended so we can keep the studio quiet for you.",
+      "photo": "/images/office.png",
+      "photoFallback": "/images/placeholder.svg",
+      "photoAlt": "Inside the Mahakali studio",
+      "addressLabel": "Studio address",
+      "directionsLabel": "Get direction",
+      "openInMapsLabel": "Open in Google Maps",
+      "preferMapText": "Prefer a map on your phone?",
+      "appointmentsLabel": "Appointments"
+    }
+  },
+  "faq": {
+    "hero": {
+      "eyebrow": "Help centre",
+      "title": "Frequently asked questions",
+      "description": "Everything about orders, shipping, returns, payments and products — grouped so you can find your answer fast.",
+      "image": "/images/everyday.png",
+      "imageFallback": "/images/placeholder-banner.svg"
+    },
+    "contactBanner": {
+      "eyebrow": "Still have a question?",
+      "title": "Talk to a real person",
+      "description": "Our team replies within one working day — and usually much faster on WhatsApp.",
+      "image": "/images/festive.png",
+      "imageFallback": "/images/placeholder-banner.svg",
+      "channels": [
+        {
+          "id": "email",
+          "label": "Email",
+          "icon": "mail",
+          "source": "email",
+          "hrefType": "email"
+        },
+        {
+          "id": "phone",
+          "label": "Call",
+          "icon": "phone",
+          "source": "phone",
+          "hrefType": "phone"
+        },
+        {
+          "id": "whatsapp",
+          "label": "WhatsApp",
+          "value": "Chat with the studio",
+          "icon": "messageCircle",
+          "hrefType": "whatsapp",
+          "external": true
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "orders",
+        "title": "Orders",
+        "description": "Placing, changing and tracking an order.",
+        "items": [
+          {
+            "question": "How do I place an order?",
+            "answer": "Add the pieces you like to your bag, open the bag from the header and choose Checkout. You can order as a guest or sign in first — signing in keeps your addresses and order history in one place."
+          },
+          {
+            "question": "Can I change or cancel an order after placing it?",
+            "answer": "Orders can be changed or cancelled until they are packed, usually within a few hours. Send us a message with your order number as soon as possible and we will do our best to catch it before dispatch."
+          },
+          {
+            "question": "Where can I see my order status?",
+            "answer": "Open My Account → Orders to see every order with its current status. Once your parcel is dispatched you will also receive a tracking link by email."
+          },
+          {
+            "question": "Do you take bulk or corporate orders?",
+            "answer": "Yes. For orders of 25 pieces or more, write to us with the styles and sizes you need and we will send a quote with a delivery date."
+          }
+        ]
+      },
+      {
+        "id": "shipping",
+        "title": "Shipping",
+        "description": "Delivery timelines, charges and tracking.",
+        "items": [
+          {
+            "question": "How long does delivery take?",
+            "answer": "Orders are dispatched within one working day. Metro cities usually receive parcels in 2–4 working days, and the rest of the country in 4–7 working days."
+          },
+          {
+            "question": "How much does shipping cost?",
+            "answer": "Shipping is free on orders over ₹999. Below that a flat delivery charge is added at checkout and shown before you pay."
+          },
+          {
+            "question": "Do you deliver outside India?",
+            "answer": "Not yet. We currently ship within India only, and we are working on international delivery — join the newsletter to hear first."
+          },
+          {
+            "question": "My parcel shows as delivered but I cannot find it.",
+            "answer": "Please check with neighbours and your building reception first. If it is still missing, contact us within 48 hours of the delivery scan and we will raise a trace with the courier."
+          }
+        ]
+      },
+      {
+        "id": "returns",
+        "title": "Returns & Exchanges",
+        "description": "Sizing, exchanges and refunds.",
+        "items": [
+          {
+            "question": "What is your return window?",
+            "answer": "You have seven days from delivery to start a return. Items should be unworn, unwashed and with the original tags attached."
+          },
+          {
+            "question": "Can I exchange for another size?",
+            "answer": "Yes. Start an exchange from My Account → Orders and pick the size you want. If the size is unavailable we will refund the item instead."
+          },
+          {
+            "question": "When will I get my refund?",
+            "answer": "Refunds are processed within 2 working days of the returned parcel reaching us. Banks usually take another 3–5 working days to show the amount."
+          },
+          {
+            "question": "Which items cannot be returned?",
+            "answer": "For hygiene reasons, innerwear, socks and earrings cannot be returned. Sale items can be exchanged but not refunded."
+          }
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Payments",
+        "description": "Payment methods, security and invoices.",
+        "items": [
+          {
+            "question": "Which payment methods do you accept?",
+            "answer": "All major credit and debit cards, UPI, net banking and popular wallets. Cash on delivery is available on selected pin codes."
+          },
+          {
+            "question": "Is it safe to pay on this site?",
+            "answer": "Yes. Payments are handled by our payment partner over an encrypted connection — we never see or store your card details."
+          },
+          {
+            "question": "Can I get a GST invoice?",
+            "answer": "Every order includes an invoice in your account. Add your GSTIN while placing the order and it will appear on the invoice automatically."
+          },
+          {
+            "question": "My payment failed but money left my account.",
+            "answer": "Failed payments are released automatically by your bank, usually within 5–7 working days. If the amount is not back by then, share the reference number with us and we will follow it up."
+          }
+        ]
+      },
+      {
+        "id": "products",
+        "title": "Products & Sizing",
+        "description": "Fabric, fit and care questions.",
+        "items": [
+          {
+            "question": "How do I choose the right size?",
+            "answer": "Each product page lists the measurements we use, and the fit notes say whether a piece runs relaxed or close to the body. If you are between sizes, size up for a relaxed fit."
+          },
+          {
+            "question": "Will the colours match the photos?",
+            "answer": "We photograph every piece in daylight without heavy editing. Screens can still shift a shade slightly, so if the exact tone matters to you, ask us and we will send a real photo."
+          },
+          {
+            "question": "How should I care for my clothes?",
+            "answer": "Wash cold, inside out, and dry in the shade to keep colours true. The care label inside each piece lists the specifics for that fabric."
+          },
+          {
+            "question": "Do you restock sold-out pieces?",
+            "answer": "Core styles such as shirts, denim and knits are restocked regularly. Seasonal pieces are limited, so add your email on the product page to be told if it comes back."
+          }
+        ]
+      }
+    ]
+  },
+  "auth": {
+    "shared": {
+      "brandAccent": "Leaf",
+      "benefitsEyebrow": "Discover your style",
+      "benefitsTitle": "Fashion for",
+      "benefitsTitleAccent": "every you",
+      "benefitsDescription": "Trendy styles, timeless essentials, and more — all in one place.",
+      "benefits": [
+        { "id": "shipping", "label": "Free shipping", "icon": "truck" },
+        { "id": "payment", "label": "Secure payment", "icon": "shieldCheck" },
+        { "id": "support", "label": "24/7 support", "icon": "headset" }
+      ],
+      "benefitsImage": "/images/placeholder-banner.svg",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "login": {
+      "eyebrow": "Welcome back",
+      "title": "Sign in to your account",
+      "subtitle": "Customers, vendors and admins all sign in here.",
+      "passwordPlaceholder": "Enter your password",
+      "forgot": "Forgot password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "errors": {
+        "emailRequired": "Email is required.",
+        "emailInvalid": "Enter a valid email address.",
+        "passwordRequired": "Password is required.",
+        "passwordMax": "Password cannot exceed {max} characters."
+      }
+    },
+    "register": {
+      "eyebrow": "Create account",
+      "title": "Join Lunella",
+      "subtitle": "Create a customer account and we'll email you a one-time verification link. Verification is optional, so you can still sign in if the link does not arrive.",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "First name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Last name",
+      "emailHint": "We email a one-time verification link to this address.",
+      "phone": "Phone Number",
+      "phonePlaceholder": "9876543210",
+      "passwordPlaceholder": "Create a password",
+      "passwordHint": "At least {min} characters.",
+      "confirm": "Confirm Password",
+      "confirmPlaceholder": "Repeat your password",
+      "terms": "I agree to the Terms & Conditions and Privacy Policy.",
+      "submit": "Create Account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "errors": {
+        "firstNameMin": "First name must be at least {min} characters.",
+        "firstNameMax": "First name cannot exceed {max} characters.",
+        "lastNameMin": "Last name must be at least {min} characters.",
+        "lastNameMax": "Last name cannot exceed {max} characters.",
+        "emailRequired": "Email is required.",
+        "emailInvalid": "Enter a valid email address.",
+        "phoneRequired": "Phone number is required.",
+        "phoneInvalid": "Use 10 to 15 digits, optionally starting with +.",
+        "passwordMin": "Password must be at least {min} characters.",
+        "passwordMax": "Password cannot exceed {max} characters.",
+        "confirmRequired": "Please confirm your password.",
+        "mismatch": "Passwords do not match.",
+        "terms": "Please accept the Terms & Conditions and Privacy Policy."
+      }
+    },
+    "forgot": {
+      "eyebrow": "Password help",
+      "title": "Forgot your password?",
+      "subtitle": "We email a one-time link so you can choose a new password.",
+      "hint": "If this email is registered, we send a reset link.",
+      "submit": "Send Reset Link",
+      "remembered": "Remembered it?",
+      "backToSignIn": "Back to sign in",
+      "errors": {
+        "emailRequired": "Email is required.",
+        "emailInvalid": "Enter a valid email address."
+      }
+    },
+    "resetCode": {
+      "eyebrow": "Reset password",
+      "title": "Check your email",
+      "subtitle": "We emailed a one-time reset link. Open it to choose a new password — the link expires in 15 minutes.",
+      "sentTo": "We sent a reset link to",
+      "fallbackEmail": "your email",
+      "differentEmail": "Use a different email",
+      "resend": "Resend link",
+      "remembered": "Remembered your password?",
+      "signIn": "Sign in"
+    },
+    "resetNew": {
+      "eyebrow": "Reset password · Last step",
+      "title": "Choose a new password",
+      "subtitle": "Pick something you have not used before. You will sign in with it straight away.",
+      "accepted": "Reset link opened.",
+      "acceptedTail": " Choose a new password to finish — this is the last step, and the link is single-use.",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter a new password",
+      "newPasswordHint": "At least {min} characters.",
+      "confirm": "Confirm New Password",
+      "confirmPlaceholder": "Repeat the new password",
+      "submit": "Reset Password",
+      "rejected": "If the link was rejected,",
+      "goBack": "request a new one",
+      "success": "Password reset successfully. Please sign in.",
+      "errors": {
+        "passwordMin": "Password must be at least {min} characters.",
+        "passwordMax": "Password cannot exceed {max} characters.",
+        "confirmRequired": "Please confirm your new password.",
+        "mismatch": "Passwords do not match."
+      }
+    },
+    "verify": {
+      "eyebrow": "Verify your email",
+      "title": "Verify your email address",
+      "subtitle": "Open the one-time verification link we emailed you — it expires in 30 minutes.",
+      "resendTitle": "Need a new link?",
+      "resendSubtitle": "Enter the email you signed up with and we will send a fresh one.",
+      "resend": "Send verification link",
+      "linkSent": "If {email} is registered and still unverified, a new link is on its way.",
+      "wrongEmail": "Wrong email?",
+      "registerAgain": "Create the account again",
+      "or": "or",
+      "signIn": "sign in",
+      "success": "Email verified successfully. Please sign in.",
+      "errors": {
+        "emailRequired": "Email is required.",
+        "emailInvalid": "Enter a valid email address."
+      }
+    },
+    "logout": {
+      "message": "Signing you out…"
+    },
+    "verifyAnimation": {
+      "verifyingTitle": "Checking your link…",
+      "verifyingMessage": "This only takes a moment.",
+      "verifiedTitle": "Email verified",
+      "verifiedMessage": "Taking you to the next step…"
+    }
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "We could not find that page",
+    "description": "The link may be old, or the address may have a typo in it. Your cart and wishlist are untouched — try one of these instead.",
+    "homeLabel": "Back to home",
+    "shopLabel": "Browse the shop"
+  },
+  "unauthorized": {
+    "title": "You can't open this page",
+    "description": "Your account role does not have access to this area.",
+    "roleSuffix": " You are signed in as a {role}.",
+    "dashboardLabel": "Go to my dashboard",
+    "signOutLabel": "Sign out"
+  },
+  "cart": {
+    "drawer": {
+      "title": "Your cart",
+      "subtitle": "Review your items",
+      "closeLabel": "Close cart",
+      "loading": "Loading cart...",
+      "added": "Added to your bag",
+      "updated": "Quantity updated",
+      "removed": "Item removed"
+    },
+    "empty": {
+      "signedInTitle": "Your cart is empty",
+      "signedOutTitle": "Log in to view your cart",
+      "signedInDescription": "Discover something you love and add it to your cart.",
+      "signedOutDescription": "Your saved cart items are waiting for you. Log in to view them.",
+      "signedInAction": "Continue shopping",
+      "signedOutAction": "Log in",
+      "footnote": "Your next favourite is waiting."
+    },
+    "item": {
+      "fallbackTitle": "Product",
+      "noImage": "No image",
+      "remove": "Remove",
+      "quantity": "Quantity controls"
+    },
+    "summary": {
+      "subtotal": "Subtotal",
+      "note": "Shipping and taxes are calculated at checkout.",
+      "checkout": "Continue to checkout"
+    }
+  },
+  "checkout": {
+    "eyebrow": "Secure checkout",
+    "title": "Checkout",
+    "description": "Confirm your delivery details and pay. Prices and stock are checked again by the studio before the order is created.",
+    "summaryTitle": "Order summary",
+    "paymentTitle": "Payment",
+    "placeOrder": "Place order and pay",
+    "placeOrderCod": "Place order",
+    "codEnabled": true,
+    "successEyebrow": "Thank you",
+    "successTitle": "Your order is placed",
+    "successPaid": "Payment confirmed. The studio can see this order and will start packing it. You can follow every step from the tracking page.",
+    "successCod": "Cash on delivery confirmed. Please keep the exact amount ready when the courier arrives.",
+    "successPending": "Your order is saved. The payment is still pending — open the order to finish it whenever you are ready.",
+    "trackTitle": "Track your order"
+  },
+  "wishlist": {
+    "hero": {
+      "eyebrow": "Saved for later",
+      "title": "Your wishlist",
+      "description": "Everything you have saved, with the live price and availability from the catalog. Items stay here until you remove them."
+    },
+    "board": {
+      "removed": "Removed from your wishlist.",
+      "moved": "“{name}”{size} moved to your bag.",
+      "movedSize": " (size {size})",
+      "moveFailed": "“{name}” is in your bag, but it could not be removed from your wishlist: {message}",
+      "signInTitle": "Sign in to see your wishlist",
+      "signInDescription": "A wishlist belongs to an account, so sign in and we will bring you straight back to this page.",
+      "signInAction": "Sign in"
+    },
+    "list": {
+      "loadError": "We could not load your wishlist",
+      "emptyTitle": "Your wishlist is empty",
+      "emptyDescription": "Tap the heart on any product card or product page to save it here. Saved items stay until you remove them.",
+      "emptyAction": "Browse products",
+      "savedOne": "{count} item saved.",
+      "savedMany": "{count} items saved."
+    },
+    "item": {
+      "inStock": "In stock ({count})",
+      "outOfStock": "Out of stock",
+      "off": "{percent}% off",
+      "moveToBag": "Move to bag",
+      "addAgain": "In your bag — add again",
+      "remove": "Remove"
+    }
+  },
+  "footer": {
+    "photo": "/images/footer.png",
+    "photoFallback": "/images/placeholder-banner.svg",
+    "columns": [
+      {
+        "id": "shop",
+        "title": "Shop",
+        "links": [
+          {
+            "label": "New Arrivals",
+            "href": "/shop"
+          },
+          {
+            "label": "1 Piece",
+            "href": "/shop?category=1-piece"
+          },
+          {
+            "label": "2 Piece",
+            "href": "/shop?category=2-piece"
+          },
+          {
+            "label": "3 Piece",
+            "href": "/shop?category=3-piece"
+          },
+          {
+            "label": "Cord Set",
+            "href": "/shop?category=cord-set"
+          }
+        ]
+      },
+      {
+        "id": "help",
+        "title": "Help",
+        "links": [
+          {
+            "label": "Track Your Order",
+            "href": "/account/orders"
+          },
+          {
+            "label": "FAQs",
+            "href": "/faq"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "title": "About",
+        "links": [
+          {
+            "label": "Our Story",
+            "href": "/about"
+          },
+          {
+            "label": "Terms & Conditions",
+            "href": "/terms"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy"
+          }
+        ]
+      }
+    ],
+    "socials": [
+      {
+        "name": "Instagram",
+        "href": "https://instagram.com/"
+      },
+      {
+        "name": "Facebook",
+        "href": "https://facebook.com/"
+      },
+      {
+        "name": "Pinterest",
+        "href": "https://pinterest.com/"
+      },
+      {
+        "name": "YouTube",
+        "href": "https://youtube.com/"
+      },
+      {
+        "name": "TikTok",
+        "href": "https://tiktok.com/"
+      }
+    ],
+    "benefits": [
+      {
+        "id": "shipping",
+        "title": "Free shipping",
+        "description": "on orders over ₹999",
+        "icon": "truck"
+      },
+      {
+        "id": "returns",
+        "title": "Easy 7-day returns",
+        "description": "Hassle-free process",
+        "icon": "package"
+      },
+      {
+        "id": "payment",
+        "title": "100% secure checkout",
+        "description": "Shop with confidence",
+        "icon": "shieldCheck"
+      },
+      {
+        "id": "sourcing",
+        "title": "Sustainably sourced",
+        "description": "For a better tomorrow",
+        "icon": "leaf"
+      }
+    ],
+    "payments": [
+      "Visa",
+      "MasterCard",
+      "American Express",
+      "PayPal",
+      "Google Pay",
+      "Apple Pay"
+    ],
+    "currencies": [
+      {
+        "code": "INR",
+        "symbol": "₹"
+      },
+      {
+        "code": "USD",
+        "symbol": "$"
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "/terms"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "announcementBar": true,
+  "header": true,
+  "footer": true,
+  "whatsappButton": true,
+  "home": {
+    "hero": true,
+    "categories": true,
+    "newArrivals": true,
+    "featuredCollections": true,
+    "trending": false,
+    "promo": true,
+    "bestSellers": false,
+    "reviews": true,
+    "newsletter": true,
+    "brandStory": true
+  },
+  "about": {
+    "hero": true,
+    "intro": true,
+    "howWeWork": true,
+    "gallery": true
+  },
+  "contact": {
+    "banner": true,
+    "form": true,
+    "infoCards": true,
+    "quickAnswers": true,
+    "map": true
+  },
+  "faq": {
+    "hero": true,
+    "groups": true,
+    "contactBanner": true
+  }
+}
